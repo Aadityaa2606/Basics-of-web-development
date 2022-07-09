@@ -1,0 +1,65 @@
+body{
+    margin: 0%;
+    background-color: #87CEEB;  
+    text-align: center;
+    font-family: monospace;
+}
+
+.top-container{
+
+    position: relative;
+    padding-top: 200px;
+}
+
+.middle-container {
+    margin-top: 400px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: larger;
+}
+
+h1{
+    margin: 20px auto 0px auto;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.subhead {
+    font-size: 1.5rem;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+
+
+.bottom-cloud {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 180px;
+    left: 220px;
+}
+
+.top-cloud {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    right:200px;
+    bottom: 10px;
+}
+
+.mountain1 {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+
+.mountain2 {
+    position: absolute;
+    left: 700px;
+    top: 300px;
+}

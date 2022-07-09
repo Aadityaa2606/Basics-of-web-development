@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Cabin Sketch
+- Font Author: Copyright 2011 The Cabin Project Authors (impallari@gmail.com), with Reserved Font Name "Cabin", "Cabin Sketch".
+- Font Source: http://fonts.gstatic.com/s/cabinsketch/v17/QGYpz_kZZAGCONcK2A4bGOjMn9JM6fnuKg.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

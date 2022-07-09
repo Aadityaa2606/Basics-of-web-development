@@ -1,0 +1,49 @@
+body {
+    font-size: 20px;
+    background-color: aqua;
+}   
+
+img:hover {
+    animation-name: example;
+}
+
+.bacon {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+
+.broccoli {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+h1 {
+    color: white;
+    font: bold 52px Helvetica, Arial, Sans-Serif;
+    text-shadow: 3px 3px #fe4902;
+    text-align: center;
+}
+
+h1:hover {
+    color: lawngreen;
+}
+.circle {
+    border-radius: 100%;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  
+  /* The element to apply the animation to */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+  }

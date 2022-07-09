@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlaceXP mock WebPage</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+    <div class="fullforms">
+        <div class="header">Create Account</div>
+        <div class="form">
+            <form method="post" enctype="text/plain">
+                <label class="Fname in" for="fname">First name *</label>
+                <label class="Lname in" for="lname">Last name</label>
+                <br>
+                <input class="fi box"type="text" id="fname" placeholder="Enter your first name" />
+                <input class="fi box" type="text" id="lname" placeholder="Enter your last name" />
+                <br><br>
+                <label for="email">Email*</label>
+                <input class="mail box"type="email" id="email" placeholder="Enter your email" />
+                <br><br>
+                <label class="pass in"for="pwd">Password *</label>
+                <label for="repwd">Confirm Password *</label>
+                <br>
+                <input class="fi in box" type="password" id="pwd" placeholder="Enter your password" />
+                <input class="fi in box" type="password" id="repwd" placeholder="Enter your password again" />
+                <br><br>
+                <label class="hobbies in">Gender:</label>
+                <label class="hobbies in">Hobbies</label>
+                <br>
+                <input class="in" type="radio" , id="mgender" name="gender" />
+                <label for="mgender">Male</label>
+                <input class="in" type="radio" , id="ggender" name="gender" />
+                <label class="F" for="ggender">Female</label>
+                <input class="in" type="checkbox" id="music" />
+                <label for="music">Music</label>
+                <input class="in" type="checkbox" id="Sports" />
+                <label for="Sports">Sports</label>
+                <input class="in" type="checkbox" id="travel" />
+                <label for="travel">Travel</label>
+                <input class="in" type="checkbox" id="movies" />
+                <label for="movies">Movies</label>
+                <br><br>
+                <label for="srcinc">Source of Income</label>
+                <br>
+                <select class="box" name="employmentstats" id="srcinc">
+                    <option value="">-Select a option-</option>
+                    <option value="emp">Employed</option>
+                    <option value="unemp">Unemployed</option>
+                </select>
+                <br><br>
+                <label for="income">Income</label>
+                <input type="range" , min="0" , max="20000000" , id="income">
+                <br><br>
+                <label for="file">Upload Profile Picture</label>
+                <br>
+                <input class="box" type="file" , id="file" , name="filename">
+                <br><br>
+                <label for="age">Age</label>
+                <input class="box"type="number" name="AGE" id="age">
+                <br><br>
+                <label for="bio">Bio</label>
+                <br>
+                <textarea class="box" name="Bio" id="bio"  cols="77" rows="7"></textarea>
+                <br />
+            </form>
+        </div>
+        <div class="footer"><div style="padding-left: 35%;"><a href="#"><span>CREATE</span></a></div></div>
+    </div>
+</div>
+</body>
+
+</html>

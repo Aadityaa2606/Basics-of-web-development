@@ -1,0 +1,124 @@
+.header{
+    backdrop-filter: blur(10px);
+    font-size: x-large;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: sans-serif;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color:#000B49;
+}
+.footer{
+    backdrop-filter: blur(10px);
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;;
+}
+.form{
+    font-family: sans-serif;
+    border-left-width: 20px;
+    border-top-width: 20px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+.fullforms{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9 ;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(2px);
+
+}
+.in{
+    display: inline-block;
+}
+.Fname{
+    padding-right: 38%;
+    padding-top: 10px;
+
+}
+.mail{
+    width: 96%;
+}
+.fi{
+    width: 48%;
+}
+.pass{
+    padding-right: 39%;
+    padding-top: 10px;
+}
+.F{
+    padding-right: 200px;
+}
+.hobbies{
+    padding-right: 290px;
+}
+body {
+  margin:0;
+}
+.wrapper {
+    width: 100%;
+    height: 830px;
+    position: absolute;
+    background: linear-gradient(45deg,#F17C58, #E94584, #24AADB , #27DBB1,#FFDC18, #FF3706);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
+.box{
+    /* width: 49%; */
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+}
+a{
+display: block;
+width: 200px;
+height: 40px;
+line-height: 40px;
+font-size: 18px;
+font-family: sans-serif;
+text-decoration: none;
+color: #333;
+border: 2px solid #333;
+letter-spacing: 2px;
+text-align: center;
+position: relative;
+transition: all .35s;
+}  
+a span{
+position: relative;
+z-index: 3;
+}
+a:after{
+position: absolute;
+content: "";
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background: #FF5C8D;
+transition: all .35s;
+}
+a:hover{
+color: #fff;
+}
+a:hover:after{
+width: 100%;
+}
